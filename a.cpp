@@ -1,11 +1,7 @@
-#include "graphics.h"
-#include "conio.h"
-
+#include <iostream>
+using namespace std;
 int main()
 {
-	initgraph(640, 480);
-	circle(320, 240, 100);
-	getch();
-	closegraph();
-	return 0;
-}
+    cout << "Hello, world!" << endl;
+    return 0;
+} 

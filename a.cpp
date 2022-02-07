@@ -1,7 +1,8 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
+
 int main()
 {
-    cout << "Hello, world!" << endl;
+    char c='/';
+    printf("%d",c);
     return 0;
 } 

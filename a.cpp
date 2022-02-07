@@ -1,11 +1,11 @@
 #include <stdio.h>
 int add(int a,char s ,int b){
     int c;
-    if (s==43)
+    if (s=='+')
     c=a+b;
-else if (s==45)
+else if (s=='-')
 c=a-b;
-else if (s==42)
+else if (s=='*')
 c=a*b;
 else if (s=='/')
 c=a/b;

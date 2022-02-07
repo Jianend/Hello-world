@@ -1,5 +1,5 @@
 #include <stdio.h>
-int add(int a,char s ,int b){
+int calculator(int a,char s ,int b){
     int c;
     if (s=='+')
     c=a+b;
@@ -21,7 +21,7 @@ int main()
     char s;
     int a,b;
 scanf("%d%c%d",&a,&s,&b);
-    c=add(a,s,b);
+    c=calculator(a,s,b);
 printf("%d",c);
     return 0;
 } 

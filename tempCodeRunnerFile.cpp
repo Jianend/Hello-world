@@ -1,1 +1,1 @@
-    switch (d)
+    scanf("%d%c%d",a,b,d);
